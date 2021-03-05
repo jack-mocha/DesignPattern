@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPattern.MementoPattern;
+using System;
 
 namespace DesignPattern
 {
@@ -6,7 +7,20 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var editor = new Editor();
+            var history = new History();
+
+            editor.Content = "a";
+            history.Push(editor.CreateState());
+
+            editor.Content = "b";
+            history.Push(editor.CreateState());
+
+            editor.Content = "c";
+            editor.RestoreState(history.Pop());
+            //editor.RestoreState(history.Pop());
+            //editor.RestoreState(history.Pop());
+            Console.WriteLine(editor.Content);
         }
     }
 }
