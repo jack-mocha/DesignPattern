@@ -1,4 +1,5 @@
 using DesignPattern.MementoPattern;
+using DesignPattern.MementoPattern.Example1;
 using NUnit.Framework;
 
 namespace DesignPatterns.UnitTests

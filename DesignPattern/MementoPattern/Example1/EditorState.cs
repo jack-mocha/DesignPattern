@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPattern.MementoPattern
+namespace DesignPattern.MementoPattern.Example1
 {
     public class EditorState
     {
@@ -10,7 +10,7 @@ namespace DesignPattern.MementoPattern
 
         public EditorState(string content)
         {
-            this.Content = content;
+            Content = content;
         }
     }
 }
