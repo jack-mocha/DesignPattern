@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{F1667E60-D52A-4968-B870-DB04A8AB972D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.UnitTests", "DesignPatterns.UnitTests\DesignPatterns.UnitTests.csproj", "{F4C3CDAE-7CEE-4518-912B-7245785CB4E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.UnitTests", "DesignPatterns.UnitTests\DesignPattern.UnitTests.csproj", "{F4C3CDAE-7CEE-4518-912B-7245785CB4E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

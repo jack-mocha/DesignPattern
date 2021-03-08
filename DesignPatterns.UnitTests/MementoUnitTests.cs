@@ -2,7 +2,7 @@ using DesignPattern.MementoPattern;
 using DesignPattern.MementoPattern.Example1;
 using NUnit.Framework;
 
-namespace DesignPatterns.UnitTests
+namespace DesignPattern.UnitTests
 {
     public class Tests
     {
@@ -22,7 +22,7 @@ namespace DesignPatterns.UnitTests
             editor.RestoreState(history.Pop());
 
             var result = editor.Content;
-            
+
             Assert.That(result, Is.EqualTo("b"));
         }
 
