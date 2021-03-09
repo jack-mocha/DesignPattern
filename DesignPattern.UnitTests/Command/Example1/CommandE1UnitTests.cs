@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace DesignPattern.UnitTests.Command.Example1
 {
-    public class CommandE1UnitTests
+    public class CommandE2UnitTests
     {
         private string Result;
 
