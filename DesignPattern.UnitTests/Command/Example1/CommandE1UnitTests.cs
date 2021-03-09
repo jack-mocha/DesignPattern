@@ -2,7 +2,7 @@ using DesignPattern.CommandPattern.Example1;
 using DesignPattern.CommandPattern.Example1.FX;
 using NUnit.Framework;
 
-namespace DesignPattern.UnitTests.Command.Exercise1
+namespace DesignPattern.UnitTests.Command.Example1
 {
     public class CommandE1UnitTests
     {
@@ -19,10 +19,10 @@ namespace DesignPattern.UnitTests.Command.Exercise1
         {
             var command = new AddCustomerCommand(new CustomerService());
             var button = new Button(command);
-            
+
             button.Click();
 
-            Assert.That(command.Result, Is.EqualTo(this.Result));
+            Assert.That(command.Result, Is.EqualTo(Result));
         }
     }
 }
