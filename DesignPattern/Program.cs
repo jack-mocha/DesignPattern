@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPattern.TemplatePattern.Example1;
+using System;
 
 namespace DesignPattern
 {
@@ -6,7 +7,8 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var task = new TransferMoneyTask();
+            task.Execute();
         }
     }
 }
