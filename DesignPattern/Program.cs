@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesignPattern.IteratorPattern.Example1;
+using DesignPattern.IteratorPattern.Example2;
+using System;
 
 namespace DesignPattern
 {
@@ -6,7 +8,6 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
