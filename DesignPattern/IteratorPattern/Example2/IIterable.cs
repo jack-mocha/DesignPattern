@@ -6,7 +6,9 @@ namespace DesignPattern.IteratorPattern.Example2
 {
     public interface IIterable<T>
     {
+        public List<string> profiles { get; }
+
         IProfileIterator<T> CreateFriendsIterator();
-        IProfileIterator<T> CreaateCoworkerIterator();
+        IProfileIterator<T> CreateCoworkerIterator();
     }
 }

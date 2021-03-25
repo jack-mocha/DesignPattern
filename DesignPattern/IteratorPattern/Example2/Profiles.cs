@@ -6,7 +6,13 @@ namespace DesignPattern.IteratorPattern.Example2
 {
     public class Profiles : IIterable<string>
     {
-        private List<string> profiles = new List<string>();
+        public List<string> profiles { get; private set; }
+
+        public Profiles()
+        {
+            this.profiles = new List<string>();
+        }
+
         public void Push(string profile)
         {
             profiles.Add(profile);
@@ -23,20 +29,20 @@ namespace DesignPattern.IteratorPattern.Example2
 
         public IProfileIterator<string> CreateFriendsIterator()
         {
-            return new ProfileIterator(this);
+            return new FriendProfileIterator(this);
         }
 
-        public IProfileIterator<string> CreaateCoworkerIterator()
+        public IProfileIterator<string> CreateCoworkerIterator()
         {
-            throw new NotImplementedException();
+            return new CoworkerProfileIterator(this);
         }
 
-        public class ProfileIterator : IProfileIterator<string>
+        public class FriendProfileIterator : IProfileIterator<string>
         {
             private Profiles profiles;
             private int index;
 
-            public ProfileIterator(Profiles profiles)
+            public FriendProfileIterator(Profiles profiles)
             {
                 this.profiles = profiles;
             }

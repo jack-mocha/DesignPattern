@@ -33,5 +33,16 @@ namespace DesignPattern.UnitTests.Iterator.UnitTests.Example2
             Assert.That(spammer.Result[1], Is.EqualTo(Result2));
             Assert.That(spammer.Result[2], Is.EqualTo(Result3));
         }
+
+        [Test]
+        public void Spammer_Send_SendMessageToCoworkers()
+        {
+            var friendIterator = profiles.CreateCoworkerIterator();
+            spammer.Send(friendIterator, "spam");
+
+            Assert.That(spammer.Result[0], Is.EqualTo(Result1));
+            Assert.That(spammer.Result[1], Is.EqualTo(Result2));
+            Assert.That(spammer.Result[2], Is.EqualTo(Result3));
+        }
     }
 }
