@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPattern.ObserverPattern.Example1;
+using System;
 
 namespace DesignPattern
 {
@@ -6,7 +7,6 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
