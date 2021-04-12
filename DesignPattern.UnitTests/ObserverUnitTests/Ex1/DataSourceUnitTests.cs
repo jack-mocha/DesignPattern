@@ -37,7 +37,7 @@ namespace DesignPattern.UnitTests
             var sheet = new SpreadSheet(src);
             src.AddObserver(chart);
             src.AddObserver(sheet);
-            src.Value = 2;
+            src.SetValue2(2);
 
             Assert.That(chart.Result, Is.EqualTo(ChartResult2));
             Assert.That(sheet.Result, Is.EqualTo(SheetResult2));
