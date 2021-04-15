@@ -1,8 +1,9 @@
+using DesignPattern.MediatorPattern.Example1;
 using NUnit.Framework;
 
 namespace DesignPattern.UnitTests
 {
-    public class Tests
+    public class ArticlesDialogBoxUnitTests
     {
         [SetUp]
         public void Setup()
@@ -12,7 +13,8 @@ namespace DesignPattern.UnitTests
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            var dialog = new ArticlesDialogBox();
+            dialog.SimulateUserInteraction();
         }
     }
 }
