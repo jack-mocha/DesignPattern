@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 =======
-﻿using DesignPattern.ChainOfResponsibilityPattern.Example1;
->>>>>>> behavioral/chainOfResponsibility
+﻿using DesignPattern.VisitorPattern.Example1;
+>>>>>>> behavioral/visitor
 using System;
 
 namespace DesignPattern
@@ -10,6 +10,13 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+=======
+            var document = new HtmlDocument();
+            document.Add(new HeadingNode());
+            document.Add(new AnchorNode());
+            document.Execute(new HighlightOperation());
+>>>>>>> behavioral/visitor
         }
     }
 }
