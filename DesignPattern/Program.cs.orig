@@ -1,7 +1,8 @@
 <<<<<<< HEAD
 =======
-﻿using DesignPattern.TemplatePattern.Example1;
->>>>>>> behavioral/template
+﻿using DesignPattern.IteratorPattern.Example1;
+using DesignPattern.IteratorPattern.Example2;
+>>>>>>> behavioral/iterator
 using System;
 
 namespace DesignPattern
@@ -10,11 +11,6 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-=======
-            var task = new TransferMoneyTask();
-            task.Execute();
->>>>>>> behavioral/template
         }
     }
 }
