@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPattern.VisitorPattern.Example1;
+using System;
 
 namespace DesignPattern
 {
@@ -6,7 +7,10 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var document = new HtmlDocument();
+            document.Add(new HeadingNode());
+            document.Add(new AnchorNode());
+            document.Execute(new HighlightOperation());
         }
     }
 }
