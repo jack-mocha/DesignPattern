@@ -1,0 +1,11 @@
+﻿# Observer Pattern
+- It notfies objects that subscribe to an object(Subject). Every time something changes in the Subject, those objects will be notified.
+- There are 2 styles of passing data.
+- **Push Style**
+  - The value object is pushed to the subscribers through the notifying method.
+    - Pros: Concrete Observer is not depending on Concrete Subject.
+    - Cons: A new Observer may need a different set of value.
+- **Pull Style**
+  - Each subscriber can get the value it needs by having a refernce to the concrete subject.
+    - Pros: More flexibility. 
+    - Cons: The subscriber is depending on the concrete subject. However, this direction of dependency is ok. The other way around will not be good. We do not want a concrete subject to depend on a subscriber.    

@@ -1,8 +1,7 @@
 <<<<<<< HEAD
 =======
-﻿using DesignPattern.IteratorPattern.Example1;
-using DesignPattern.IteratorPattern.Example2;
->>>>>>> behavioral/iterator
+﻿using DesignPattern.ObserverPattern.Example1;
+>>>>>>> behavioral/Observer
 using System;
 
 namespace DesignPattern
