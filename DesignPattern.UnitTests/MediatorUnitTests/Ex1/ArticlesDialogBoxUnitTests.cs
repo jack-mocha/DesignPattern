@@ -1,7 +1,7 @@
 using DesignPattern.MediatorPattern.Example1;
 using NUnit.Framework;
 
-namespace DesignPattern.UnitTests
+namespace DesignPattern.UnitTests.MediatorUnitTests.Ex1
 {
     public class ArticlesDialogBoxUnitTests
     {

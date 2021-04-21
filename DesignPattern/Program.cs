@@ -1,5 +1,4 @@
-﻿using DesignPattern.MediatorPattern.Example2;
-using System;
+﻿using System;
 
 namespace DesignPattern
 {
