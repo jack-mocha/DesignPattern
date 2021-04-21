@@ -1,8 +1,7 @@
 <<<<<<< HEAD
-﻿using DesignPattern.MementoPattern;
 =======
-﻿using DesignPattern.StatePattern;
->>>>>>> behavioral/state
+﻿using DesignPattern.StrategyPattern.Exercise1;
+>>>>>>> behavioral/strategy
 using System;
 
 namespace DesignPattern
