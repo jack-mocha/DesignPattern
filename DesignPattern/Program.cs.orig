@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 =======
-﻿using DesignPattern.StrategyPattern.Exercise1;
->>>>>>> behavioral/strategy
+﻿using DesignPattern.TemplatePattern.Example1;
+>>>>>>> behavioral/template
 using System;
 
 namespace DesignPattern
@@ -10,6 +10,11 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+=======
+            var task = new TransferMoneyTask();
+            task.Execute();
+>>>>>>> behavioral/template
         }
     }
 }
