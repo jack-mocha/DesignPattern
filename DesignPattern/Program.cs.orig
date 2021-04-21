@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 =======
-﻿using DesignPattern.ObserverPattern.Example1;
->>>>>>> behavioral/Observer
+﻿using DesignPattern.ChainOfResponsibilityPattern.Example1;
+>>>>>>> behavioral/chainOfResponsibility
 using System;
 
 namespace DesignPattern
