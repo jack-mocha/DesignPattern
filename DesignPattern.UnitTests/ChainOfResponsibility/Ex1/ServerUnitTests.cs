@@ -1,7 +1,7 @@
 using DesignPattern.ChainOfResponsibilityPattern.Example1;
 using NUnit.Framework;
 
-namespace DesignPattern.UnitTests
+namespace DesignPattern.UnitTests.ChainOfResponsibility.Ex1
 {
     public class ServerUnitTests
     {
@@ -29,7 +29,7 @@ namespace DesignPattern.UnitTests
             compressor = new Compressor(logger);
             authenticator = new Authenticator(compressor);
             var server = new WebServer(authenticator);
-            
+
             server.Handle(new HttpRequest(username, password));
 
             Assert.That(authenticator.Result, Is.EqualTo(authResultIsTrue));
