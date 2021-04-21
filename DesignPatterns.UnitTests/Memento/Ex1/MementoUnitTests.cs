@@ -2,7 +2,7 @@ using DesignPattern.MementoPattern;
 using DesignPattern.MementoPattern.Example1;
 using NUnit.Framework;
 
-namespace DesignPattern.UnitTests
+namespace DesignPattern.UnitTests.Memento.Ex1
 {
     public class Tests
     {
