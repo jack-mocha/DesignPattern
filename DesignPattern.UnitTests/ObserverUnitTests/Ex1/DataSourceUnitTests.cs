@@ -1,7 +1,7 @@
 using DesignPattern.ObserverPattern.Example1;
 using NUnit.Framework;
 
-namespace DesignPattern.UnitTests
+namespace DesignPattern.UnitTests.ObserverUnitTests.Ex1
 {
     public class DataSourceUnitTests
     {
