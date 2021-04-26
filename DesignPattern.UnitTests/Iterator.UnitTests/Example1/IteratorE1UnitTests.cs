@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DesignPattern.UnitTests.Iterator.UnitTests.Example1
 {
-    public class IteratorE1UnitTests
+    public class DecoratorE1UnitTests
     {
         private BrowseHistory history;
         private List<string> results = new List<string>();

@@ -1,0 +1,11 @@
+﻿# Decorator Pattern - Ex1
+- It is used when you want to assign extra behaviors to objects at runtime without bloatting the code with combinations of extended sub-classes.
+- For example, when storing data you want
+    - plain text
+    - compress > plain text
+    - encrypt > compress > plain text
+- The additional behavior can be either before or after the base behavior.
+- Because both concrete component and decorator implements the component interface, the client will not feel the differences.
+- Keep in mind that the order of the wrapped objects matters. e.g.
+    - compress > encrypt
+    - encrypt > compress
