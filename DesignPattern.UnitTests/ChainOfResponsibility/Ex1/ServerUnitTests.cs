@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace DesignPattern.UnitTests.ChainOfResponsibility.Ex1
 {
-    public class ServerUnitTests
+    public class AdapterUnitTests
     {
         private Logger logger;
         private Compressor compressor;
