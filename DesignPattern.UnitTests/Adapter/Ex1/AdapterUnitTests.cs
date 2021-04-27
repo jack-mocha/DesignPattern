@@ -26,7 +26,7 @@ namespace DesignPattern.UnitTests.Adapter.Ex1
         }
 
         [Test]
-        public void ThreeHandler_WhenCalled_AllReturnTrue()
+        public void Inheritance_WhenCalled_FilterApplied()
         {
             var imageView = new ImageView(new Image());
             var adapter = new CaramelAdapter();
